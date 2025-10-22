@@ -1,0 +1,6 @@
+field_key,label,required,example
+name,Namn,yes,Anna Andersson
+email,E-post,yes,anna@example.com
+phone,Telefon,yes,+46701234567
+company,Företag,no,Andersson AB
+need,Behov,no,"Behöver hjälp att automatisera kundsupport"

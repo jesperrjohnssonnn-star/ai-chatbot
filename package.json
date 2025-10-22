@@ -1,0 +1,20 @@
+{
+  "name": "ai-chatbot-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server_openai_patched.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server_openai_patched.js",
+    "start": "node server_openai_patched.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "morgan": "^1.10.0",
+    "openai": "^4.58.1"
+  }
+}
